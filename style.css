@@ -11,6 +11,10 @@ p {
 .flexeble-box {
   display: flex;
 }
+.button {
+  margin-top: 80px;
+}
+
 .button-color {
   text-decoration: none;
   background-color: #3db8fb;
@@ -47,6 +51,7 @@ p {
 }
 .second-part img {
   width: 50%;
+  margin-top: 25px;
 }
 .about-text {
   font-size: 30px;
