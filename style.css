@@ -109,11 +109,11 @@ footer {
   height: 256px;
   margin-top: 100px;
   padding-top: 10px;
-  background-color: black;
+  background-color: #e4e5e6;
   text-align: center;
-  color: white;
+  color: black;
 }
 footer div {
-  color: white;
+  color: black;
   align-items: bottom;
 }
