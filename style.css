@@ -1,20 +1,25 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   height: 3002px;
   margin: 0;
 }
-img {
-  width: 70%;
+p {
+  font-size: 20px;
+}
+.blue-color {
+  color: #3db8fb;
 }
 .flexeble-box {
   display: flex;
 }
 .button-color {
   text-decoration: none;
-  font-weight: 700;
-  background-color: red;
+  background-color: #3db8fb;
+  padding: 10px 40px;
+  border-radius: 5px;
+  background-image: linear-gradient(#3db8fb #e4e5e6);
   color: white;
-  border-radius: 10px;
+  font-weight: 700;
 }
 .half-width {
   width: 50%;
@@ -22,47 +27,62 @@ img {
 }
 .first-part {
   height: 750px;
-  border: 5px solid red;
 }
 .first-part img {
   width: 90%;
+}
+.first-part-text {
+  font-size: 30px;
+  padding-top: 5px;
 }
 .second-part {
   background-image: url(images/2ndbg.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 600px;
-  border: 5px solid red;
 }
 .second-part img {
   width: 55%;
 }
 .th {
   height: 687px;
-  border: 5px solid red;
+  padding: 10px 0px;
+  margin: 100px 0px;
+}
+.recipies-hader {
+  text-align: center;
+  padding-left: 30%;
+  padding-right: 30%;
 }
 .product-box {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 30px 10px;
 }
 .product-item {
-  width: 20%;
-  border: 15px solid;
-  border-radius: 10px;
-  box-shadow: grey;
+  width: 25%;
+  height: 528px;
+  border: 5px solid white;
+  border-radius: 20px;
   padding: 0px;
   margin: 2%;
+  box-shadow: 10px 5px 15px gray;
 }
 .product-item img {
-  padding: 10px;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 10px;
   width: 95%;
-  height: auto;
   border-radius: 20px;
 }
 .fourth-part {
   height: 226px;
-  border: 5px solid red;
+  margin: 20px 125px;
+  padding: 0px 10px;
+  border: 5px solid white;
+  border-radius: 20px;
+  box-shadow: 10px 5px 15px gray;
 }
 .number-item {
   width: 20%;
@@ -71,6 +91,7 @@ img {
 }
 footer {
   height: 256px;
+  padding-top: 10px;
   background-color: black;
   text-align: center;
   color: white;
